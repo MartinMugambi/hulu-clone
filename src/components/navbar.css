@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root
+{
+    --primary-font: 'Montserrat'sans-serif;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    overflow-x: scroll;
+    font-family: var(--primary-font);
+    font-size: 0.9rem;
+}
+
+.navbar::-webkit-scrollbar 
+{
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .navbar
+  {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

@@ -1,0 +1,11 @@
+.header
+{
+  display: flex;
+  background: red;
+}
+
+.header_icons
+{
+    width: 10%;
+}
+ 

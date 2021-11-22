@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root
+{
+    --primary-font: 'Montserrat', sans-serif;
+}
+
+.header
+{
+ display: flex;
+ padding: 10px;
+justify-content: space-between; 
+font-family: var(--primary-font);
+font-size: 0.8rem;
+}
+
+.header_icons
+{ 
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.header_icon
+{
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon 
+{
+ width: 20px;
+ text-align: center;
+}
+.icon-text
+{
+    display: none;
+}
+.active
+{
+    display: block;
+}
+.header_icon:hover > .icon-text
+{ 
+  display: block;  
+}
+.header > img
+{
+   object-fit: contain;
+    width: 10%;
+}
+
+ 
